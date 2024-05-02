@@ -139,16 +139,17 @@ a = {
 # print(a)
 
 # set:
-a = {1,2,3,6,"onkar"}
+# a = {1,2,3,6,"onkar"}
 # a.add(5)
-# print(a)
 # a.remove(5)
-# print(a)
-
-
-
-
-
+# a.clear()
+# a.pop()
+# a = {1,2,3}
+# b = {5,6,7}
+# print(a.union(b))
+# a = {1,2,3}
+# b = {1,5,6}
+# print(a.intersection(b))
 
 
 
