@@ -32,17 +32,23 @@
 #     print(i)
 #     i = i + 1
 
-i = 1
-while i <= 10:
-    if i % 2 == 0:
-        i = i + 1
-        continue
-    print(i)
-    i = i + 1
+# i = 1
+# while i <= 10:
+#     if i % 2 == 0:
+#         i = i + 1
+#         continue
+#     print(i)
+#     i = i + 1
 
+# a = [1,2,3,4,5]
+# for i in a:
+#     print(i)
 
-
-
+# i = 0
+# while(i < 5):
+#     i = i + 1
+#     print(i,end = " ")
+#     i += 1
 
 
 

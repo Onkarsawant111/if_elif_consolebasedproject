@@ -123,11 +123,11 @@
 # print(a)
 
 # nested dictionary
-a = {
-    "name":"onkar",
-    "age:": 24,
-    "courses":{"FSD":"python", "DSA": "JS"}
-}
+# a = {
+#     "name":"onkar",
+#     "age:": 24,
+#     "courses":{"FSD":"python", "DSA": "JS"}
+# }
 # dict methods
 
 # print(a.keys())
