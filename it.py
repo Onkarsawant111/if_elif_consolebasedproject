@@ -1,12 +1,3 @@
-# i = 1
-# f = int(input("factorial: "))
-# n = 1
-# while i <= f:
-#     n = n * i
-#     i = i + 1
-    
-# print(n)
-
 # n = 153
 # n1 = n
 # arm = 0
@@ -14,9 +5,9 @@
 #     arm = arm + (n%10)**3
 #     n = n // 10
 # if n1 == arm:
-#     print(n1, "is palindrome no") 
+#     print(n1, "is arm no") 
 # else:
-#     print(n1, "not a palindrome no")
+#     print(n1, "not a arm no")
 
 # n = 153
 # n1 = n
