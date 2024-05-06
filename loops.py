@@ -50,6 +50,65 @@
 #     print(i,end = " ")
 #     i += 1
 
+# n = int(input("no: "))
+# n1 = n
+# a = 0
+# while n > 0:
+#     a = a*10 + n % 10
+#     n = n // 10
+# if a == n1:
+#     print("palindrome no")
+# else:
+#     print("not palindrome")
+
+# r = 1
+# while r <= 6:
+#     sp = 6
+#     while sp > r:
+#         print(" ", end=" ")
+#         sp = sp - 1
+#     c = 1
+#     while c <= r:
+#         if r == 1:
+#             print(chr(65), end=" ")
+#         elif r == 2:
+#             print(chr(66), end=" ")
+#         elif r == 3:
+#             print(chr(67), end=" ")
+#         elif r == 4:
+#             print(chr(68), end=" ")
+#         elif r == 5:
+#             print(chr(69), end=" ")
+#         elif r == 6:
+#             print(chr(70), end=" ")
+#         c = c + 1
+#     print()
+#     r = r + 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
 
 
 
