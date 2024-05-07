@@ -51,13 +51,49 @@
 # s1 = Student("onkar",92,89,94)
 # print(s1.avg())
 
-class Students:
-    @staticmethod
-    def greet():
-        print("hello")
+# class Students:
+#     @staticmethod
+#     def greet():
+#         print("hello")
 
-s1 = Students
-s1.greet()      
+# s1 = Students
+# s1.greet()      
+
+# 1.abstraction
+# class Car:
+#     def __init__(self):
+#         self.engine = False
+#         self.gear = False
+#     def start(self):
+#         self.engine = True
+#         self.gear = True
+#         print("car started")
+
+# car1 = Car()
+# car1.start()
+
+# 2.encapsulation
+# class Bank_account:
+#     def __init__(self, account_no, balance ):
+#         self.account_no = account_no
+#         self.balance = balance
+
+#     def credit(self, amount):
+#         self.balance = self.balance + amount
+#         print("total balance =", self.bal())
+    
+#     def debit(self, amount):
+#         self.balance = self.balance - amount
+#         print("total balance =", self.bal())
+    
+#     def bal(self):
+#         final_amount = self.balance
+#         return final_amount
+    
+# acc1 = Bank_account(123,10000)
+# acc1.debit(500)
+
+
 
 
 
