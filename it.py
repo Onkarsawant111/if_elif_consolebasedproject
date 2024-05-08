@@ -50,6 +50,43 @@
 #     print()
 #     i = i + 1
 
+# a = "A"
+# b = "B"
+# r = 1
+# while r <= 5:
+#     c = 1
+#     while c <= 5:
+#         if r == 1:
+#             print(a, end=" ")
+#         elif c == 1:
+#             print(b, end=" ")
+#         else:
+#             print(" ", end=" ")
+#         c = c + 1
+#     print()
+#     r = r + 1
+
+# a = "A"
+# b = "B"
+# m = "C"
+# r = 1
+# while r <= 5:
+#     c = 1
+#     while c <= 5:
+#         if r == 1 and c == 1:
+#             print(m, end=" ")
+#         if r == 1:
+#             print(a, end=" ")       
+#         elif c == 1:
+#             print(b, end=" ")
+#         else:
+#             print(" ", end=" ")
+#         c = c + 1
+#     print()
+#     r = r + 1
+
+
+
 
 
 

@@ -93,11 +93,43 @@
 # acc1 = Bank_account(123,10000)
 # acc1.debit(500)
 
+# private attributes
+# class Students:
+#     def __init__(self, name):
+#         self.__name = name
 
+# s1 = Students("onkar")
+# print(s1.__name)
 
+# 3. Inheritance
+# class Car:
+#     @staticmethod
+#     def start():
+#         print("car started")
+    
+# class Toyota(Car):
+#     def __init__(self, name):
+#         self.name = name
 
+# car1 = Toyota("fortuner")
+# car1.start()
 
+#multiple inheritance:
+class keyplugin:
+    def start(self):
+        print("car started")
+    
+class keyplugoff:
+    def stop(self):
+        print("car stopped")
 
+class engine(keyplugin,keyplugoff):
+    def go(self):
+        print("lets go")
+
+car1 = engine()
+car1.start()
+car1.stop()
 
 
 
