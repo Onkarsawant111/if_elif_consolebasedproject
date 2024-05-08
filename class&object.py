@@ -73,6 +73,7 @@
 # car1.start()
 
 # 2.encapsulation
+
 # class Bank_account:
 #     def __init__(self, account_no, balance ):
 #         self.account_no = account_no
@@ -102,6 +103,7 @@
 # print(s1.__name)
 
 # 3. Inheritance
+
 # class Car:
 #     @staticmethod
 #     def start():
@@ -115,21 +117,84 @@
 # car1.start()
 
 #multiple inheritance:
-class keyplugin:
-    def start(self):
-        print("car started")
+# class keyplugin:
+#     def start(self):
+#         print("car started")
     
-class keyplugoff:
-    def stop(self):
-        print("car stopped")
+# class keyplugoff:
+#     def stop(self):
+#         print("car stopped")
 
-class engine(keyplugin,keyplugoff):
-    def go(self):
-        print("lets go")
+# class engine(keyplugin,keyplugoff):
+#     def go(self):
+#         print("lets go")
 
-car1 = engine()
-car1.start()
-car1.stop()
+# car1 = engine()
+# car1.start()
+# car1.stop()
+
+# super keyword
+
+# class Car:
+#     def __init__(self, type):
+#         self.type = type
+    
+# class Toyota(Car):
+#     def __init__(self, name, type):
+#         self.name = name
+#         super().__init__(type)   
+
+# car1 = Toyota("fortuner", "electric")
+# print(car1.type)
+
+# class method
+
+# class Person:
+#     name = "anonymous"
+#     def changename(self,name):
+#         self.name = name
+# p1 = Person()
+# p1.changename("onkar")
+# print(Person.name)
+
+# class Person:
+#     name = "anonymous"
+#     @classmethod
+#     def changename(cls,name):
+#         cls.name = name
+# p1 = Person()
+# p1.changename("onkar")
+# print(Person.name) 
+
+# property method
+# class Marks:
+#     def __init__(self, phy , chem, math):
+#         self.phy = phy
+#         self.chem = chem
+#         self.math = math
+        
+#     @property
+#     def cal(self):
+#         return (self.phy + self.chem + self.math)/3
+# s1 = Marks(98,96,95)
+# s1.phy = 85
+# print(s1.cal)
+
+# 4. Polymorphism
+print([1,2,3] + [4,5,6])
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

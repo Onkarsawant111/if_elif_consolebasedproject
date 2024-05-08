@@ -60,8 +60,6 @@
 #             print(a, end=" ")
 #         elif c == 1:
 #             print(b, end=" ")
-#         else:
-#             print(" ", end=" ")
 #         c = c + 1
 #     print()
 #     r = r + 1
@@ -79,13 +77,24 @@
 #             print(a, end=" ")       
 #         elif c == 1:
 #             print(b, end=" ")
-#         else:
-#             print(" ", end=" ")
 #         c = c + 1
 #     print()
 #     r = r + 1
 
+# a = "my name is khan"
+# i = -1
+# l = -(len(a))
+# while i >= l:
+#     print(a[i], end=" ")
+#     i = i - 1
 
+# a = "my name is khan"
+# i = 14
+# s = ""
+# while i >= 0:
+#     s = s + a[i]
+#     i = i - 1
+# print(s)
 
 
 
