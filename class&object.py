@@ -181,7 +181,26 @@
 # print(s1.cal)
 
 # 4. Polymorphism
-print([1,2,3] + [4,5,6])
+# print([1,2,3] + [4,5,6])
+
+# 1.operator overloading
+# class Complex:  
+#         def __init__(self,real,img):
+#                 self.real = real
+#                 self.img = img
+        
+#         def showno(self):
+#                 print(self.real,"i","+",self.img,"j")
+        
+#         def __add__(num1,num2):
+#                 newreal = num1.real + num2.real
+#                 newimg = num1.img + num2.img
+#                 return Complex(newreal, newimg)
+
+# num1 = Complex(4,5)
+# num2 = Complex(1,3)
+# result = num1 + num2
+
 
 
 
