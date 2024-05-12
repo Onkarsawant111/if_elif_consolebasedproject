@@ -82,10 +82,27 @@
 # print("\nFriends' list (sorted by name):")
 # print_sorted_dict()
 
+# arguments/parameters in function :
 
+# def show(val=2):
+#     return val * 2
+# print(show())
 
+# def user(name,age):
+#     print(f"username is {name} and age is {age}")
+# user(24,"onkar")
 
+# def user(name,age):
+#     print(f"username is {name} and age is {age}")
+# user(age= 24, name="onkar")
 
+# def user(*args):
+#     print(args)
+# user(1,2,3)
+
+# def user(**kwargs):
+#     print(type(kwargs))
+# user(name="onkar",city="thane")
 
 
 
