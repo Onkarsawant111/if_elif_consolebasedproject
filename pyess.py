@@ -104,15 +104,45 @@
 #     print(type(kwargs))
 # user(name="onkar",city="thane")
 
+# square = lambda x: x ** 2
+# print(square(5))  
 
+# s=lambda x,y : x if x>y else y
 
+# num1=int(input("Enter first number"))
 
+# num2=int(input("Enter second number"))
 
+# print("largest number : ",s(num1,num2))
 
+# def square(x):
+#     return x ** 2
 
+# numbers = [1, 2, 3, 4, 5]
+# squared_numbers = map(square, numbers)
+# print(list(squared_numbers))
 
+# from functools import reduce
 
+# def subtract(x, y):
+#     print(x)
+#     print(y)
+#     return x - y
 
+# numbers = [1, 2, 3, 4, 5]
+
+# # Without initializer
+# result_without_initializer = reduce(subtract, numbers)
+# print("Without initializer:", result_without_initializer)  # Output: -13
+
+# # With initializer
+# initializer = 100
+# result_with_initializer = reduce(subtract, numbers, initializer)
+# print("With initializer:", result_with_initializer)  # Output: 85
+
+# from my_package import demo
+# a = demo.add(5,5)
+# print(a)
 
 
 
