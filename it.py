@@ -225,3 +225,10 @@
 #         c = c + 1
 #     print()
 #     r = r + 1 
+
+# a = ['rahul','sai', 'max','tony','onkar','kiran']
+# b = []
+# for i in a: 
+#     if "k" in i:
+#         b.append(i)
+# print(b)

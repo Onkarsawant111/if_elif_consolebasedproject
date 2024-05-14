@@ -144,6 +144,45 @@
 # a = demo.add(5,5)
 # print(a)
 
+# def compute_monthly_payment(loan_amount, years, annual_interest_rate):
+#     monthly_interest_rate = annual_interest_rate / 12 / 100
+#     months = years * 12
+#     monthly_payment = (loan_amount * monthly_interest_rate) / (1 - (1 + monthly_interest_rate) ** -months)
+#     return monthly_payment
+
+# # Input values from the user
+# loan_amount = float(input("Enter the loan amount: $"))
+# years = int(input("Enter the number of years: "))
+# annual_interest_rate = float(input("Enter the annual interest rate (in percentage): "))
+
+# # Compute the monthly payment
+# monthly_payment = compute_monthly_payment(loan_amount, years, annual_interest_rate)
+
+# # Display the result
+# print("The monthly payment is: $", round(monthly_payment, 2))
+
+# a = [1,2,3,4,5]
+# def mult(val):
+#     i = 0
+#     m = 1
+#     while i < len(val):
+#         m = m * a[i]
+#         i = i + 1
+#     return m 
+# print(mult(a))
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
