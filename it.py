@@ -232,3 +232,47 @@
 #     if "k" in i:
 #         b.append(i)
 # print(b)
+
+# a = [1,2,3,4,5]
+# def mult(val):
+#     i = 0
+#     m = 1
+#     while i < len(val):
+#         m = m * a[i]
+#         i = i + 1
+#     return m 
+# print(mult(a))
+
+# a = (1,2,3,44)
+# b = list(a)
+# i = 0
+# while i < len(b):
+#     if i == 1:
+#         b[i] = 22
+#     elif i == 2:
+#         b[i] = 33
+#     elif i == 3:
+#         b[i] = 44
+#     i = i + 1
+# print(tuple(b))
+
+# a = [15,2,4,56,9,88,35,46,1]
+# b = []
+# c = []
+# for i in a:
+#     if i % 2 == 0:
+#         b.append(i)
+#     else:
+#         c.append(i)
+# print("even no list is",b)
+# print("odd no list is",c)
+
+# a = ["onkar","tony","max","heath","rajesh"]
+# b = []
+# for i in a:
+#     if len(i) >= 5:
+#         b.append(i)
+# print(b)
+
+
+

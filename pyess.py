@@ -161,28 +161,10 @@
 # # Display the result
 # print("The monthly payment is: $", round(monthly_payment, 2))
 
-# a = [1,2,3,4,5]
-# def mult(val):
-#     i = 0
-#     m = 1
-#     while i < len(val):
-#         m = m * a[i]
-#         i = i + 1
-#     return m 
-# print(mult(a))
-    
-
-
-
-
-
-
-
-
-
-
-
-
+# f = open("mango.txt", "r")
+# f.read()
+# data = f.tell()
+# print(data)
 
 
 
