@@ -274,5 +274,26 @@
 #         b.append(i)
 # print(b)
 
+# a = "abcxyz"
+# b = ''
+# i = -1
+# while i >= -len(a):
+#     b = a[i]
+#     print(b, end="")
+#     i = i - 1
+
+# d = ['name','age','city']
+# d1 = ['rohit','30','thane']
+# dic = {}
+# for i in range(len(d)):
+#     dic[d[i]] = d1[i]
+# print(dic)
+
+# dic["indian"]= True
+# print(dic)
+
+
+
+
 
 

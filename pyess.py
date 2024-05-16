@@ -195,25 +195,29 @@
 # print(type(deserialized_data))
 
 # 1. Open the file if exists, if not create a new file
-file = open("test.txt", "a+")
-print("File 'test.txt' opened successfully.")
+# file = open("test.txt", "a+")
+# print("File 'test.txt' opened successfully.")
 
-file = open("test.txt", "w+")
-print("File 'test.txt' created successfully.")
+# file = open("test.txt", "w+")
+# print("File 'test.txt' created successfully.")
 
-# # 2. Add string 'abcde' to the end of the file
-file.write("abcde")
-print("String 'abcde' added to the end of the file.")
+# # # 2. Add string 'abcde' to the end of the file
+# file.write("abcde")
+# print("String 'abcde' added to the end of the file.")
 
-# # 3. Read and display first 5 characters
-file.seek(0)  # Move the file pointer to the beginning of the file
-first_five_chars = file.read(5)
-print("First 5 characters:", first_five_chars)
+# # # 3. Read and display first 5 characters
+# file.seek(0)  # Move the file pointer to the beginning of the file
+# first_five_chars = file.read(5)
+# print("First 5 characters:", first_five_chars)
 
-# # 4. Display total number of characters present in the file
-file.seek(0)  # Move the file pointer to the beginning of the file
-total_characters = len(file.read())
-print("Total number of characters in the file:", total_characters)
-file.close()
+# # # 4. Display total number of characters present in the file
+# file.seek(0)  # Move the file pointer to the beginning of the file
+# total_characters = len(file.read())
+# print("Total number of characters in the file:", total_characters)
+# file.close()
+
+
+
+
 
 
