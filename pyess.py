@@ -216,6 +216,27 @@
 # print("Total number of characters in the file:", total_characters)
 # file.close()
 
+# def divide_numbers(a, b):
+#     try:
+#         # Code that might raise an exception
+#         result = a / b
+#     except ZeroDivisionError:
+#         # Code to handle the exception
+#         print("Error: Division by zero is not allowed.")
+#         result = None
+#     except TypeError:
+#         # Code to handle a different type of exception
+#         print("Error: Both inputs must be numbers.")
+#         result = None
+#     finally:
+#         # Code that runs no matter what
+#         print("Execution of the try-except block is complete.")
+#     return result
+
+# # Example usage
+# print(divide_numbers(10, 2))  # Should print the result and the finally block message
+# print(divide_numbers(10, 0))  # Should print the exception message for division by zero and the finally block message
+# print(divide_numbers(10, 'a'))  # Should print the exception message for type error and the finally block message
 
 
 
