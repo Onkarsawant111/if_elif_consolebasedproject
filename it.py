@@ -292,6 +292,89 @@
 # dic["indian"]= True
 # print(dic)
 
+# a = [i for i in range(1,11,1)]
+# print(a)
+
+# a = [i for i in range(1,101,1) if i % 2 == 0]
+# print(a)
+
+# import random
+# words = ['rahul','lahur','sawant','wasant']
+# score = 0
+# while True:
+#     letters = list(random.choice(words))
+#     print('guess the correct word:', "".join(letters))
+#     user_word = input("write a correct word or press 'q' to quit : ")
+#     if user_word == 'q':
+#         break
+#     valid = True
+#     for i in user_word:
+#         if i in letters:
+#             letters.remove(i)
+#         else:
+#             valid = False
+#             break
+#     if valid and user_word in words:
+#         score = score + len(user_word)
+#         print(f"your score is : {score}")
+#     else:
+#         print("wrong word")
+
+# import random
+# words = ['rahul','lahur','sawant','wasant']
+# score = 0
+# while True:
+#     letters = list(random.choice(words))
+#     l = "".join(letters)
+#     print('guess the correct word:', "".join(letters))
+#     user_word = input("write a correct word or press 'q' to quit : ").lower()
+#     if user_word == 'q':
+#         break
+#     if user_word != l:
+#         valid = True
+#         for i in user_word:
+#             if i in letters:
+#                 letters.remove(i)
+#             else:
+#                 valid = False
+#                 break
+#         if valid and user_word in words:
+#             score = score + len(user_word)
+#             print(f"your score is : {score}")
+#         else:
+#             print("wrong word")
+#     else: 
+#         print("------You enter same word that I provided------")
+# print(f"Total score = {score}")
+
+# def upper(x):
+#     t = ""
+#     for i in x:
+#         if i != " ":
+#             a = ord(i)
+#             if a >=97:
+#                 a = ord(i)-32
+#                 a1 = chr(a)
+#                 t = t + a1
+#             elif a < 65:
+#                 a1 = chr(a)
+#                 t = t + a1
+#             else:
+#                 a1 = chr(a)
+#                 t = t + a1
+#         elif i == " ":
+#             t = t + " "
+#     return t
+# print(upper("Onkar iS my name and how are you?"))
+
+def lower(x):
+    for i in x:
+
+
+
+
+
+
 
 
 

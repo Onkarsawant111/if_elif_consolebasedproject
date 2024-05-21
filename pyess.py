@@ -226,7 +226,7 @@
 #         result = None
 #     except TypeError:
 #         # Code to handle a different type of exception
-#         print("Error: Both inputs must be numbers.")
+#         print("Error: Both inputs mus t be numbers.")
 #         result = None
 #     finally:
 #         # Code that runs no matter what
