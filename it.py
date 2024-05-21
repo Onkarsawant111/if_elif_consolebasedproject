@@ -367,8 +367,23 @@
 #     return t
 # print(upper("Onkar iS my name and how are you?"))
 
-def lower(x):
-    for i in x:
+# def lower(x):
+#     t = " "
+#     for i in x:
+#         if i != " ":
+#             a = ord(i)
+#             if a < 65:
+#                 t = t + i
+#             elif a >= 65 and a <= 90:
+#                 a = a + 32
+#                 a1 = chr(a)
+#                 t = t + a1
+#             else:
+#                 a1 = chr(a)
+#                 t = t + a1
+#     return t 
+            
+# print(lower("oNkaR?--..m"))
 
 
 
