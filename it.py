@@ -385,12 +385,22 @@
             
 # print(lower("oNkaR?--..m"))
 
+# def prime(n):
+#     i = 2
+#     while i < n:
+#         r = n % i
+#         if r == 0:
+#             p = "not prime"
+#             break
+#         else:
+#             p = 'prime'
+#         i = i + 1
+#     return p
+# print(prime(67))
 
+def p(n, i=1):
+    print(n)
+    if i < n:
+        p(n, i + 1)
 
-
-
-
-
-
-
-
+p(5)
