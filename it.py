@@ -398,9 +398,30 @@
 #     return p
 # print(prime(67))
 
-def p(n, i=1):
-    print(n)
-    if i < n:
-        p(n, i + 1)
+# def no(n):
+#     if n > 0:
+#         no(n - 1)
+#         print(n)
 
-p(5)
+# no(5)
+
+# a = ['rahul','onkar','reshma','vaibhavi']
+
+# def last(x):
+#     if x[-1] == 'a':
+#         return x
+# b = filter(last,a)
+# print(list(b))
+
+# a = ['rahul','onkar','reshma','vaibhavi', 'reka']
+
+# def last(x):
+#     if x[-1] == 'a' and len(x) <= 4:
+#         return x
+# b = filter(last,a)
+# print(list(b))
+
+
+
+
+
